@@ -216,7 +216,6 @@ C -- tag --> D(tag: v2.0.0)
 [🔝 Retour en haut de page](#table-des-matières)
 
 ## Squash
-
 Le squash est une pratique qui consiste à fusionner plusieurs commits en un seul, plus clair et plus significatif. Cela permet de simplifier l'historique de développement et de faciliter la lecture et la compréhension du code.
 
 ### Scénario
@@ -248,7 +247,10 @@ sequenceDiagram
 Les fichiers sensibles tels que les informations d'identification, les clés d'API ou les configurations de base de données doivent être gérés de manière à ne pas être exposés publiquement. Il est important de les exclure du suivi de version et de les stocker dans un endroit sécurisé tel que les variables d'environnement.
 
 ### Scénario
-Dans cet exemple, le développeur a effectué trois commits distincts pour la mise en place d'une fonctionnalité. Le reviewer effectue une code review et décide de fusionner les trois commits en un seul avant de fusionner la branche de développement avec la branche principale (master). Cela permet de simplifier l'historique de développement et de faciliter la lecture et la compréhension du code.
+Un fichier sensible a été ajouté à un dépôt Git par un développeur. Le reviewer effectue une revue de code et décide d'exclure le fichier du dépôt en créant une règle dans le fichier Gitignore. 
+
+Le développeur est également invité à stocker le fichier dans un endroit sécurisé, tel qu'un gestionnaire de mots de passe ou un service de stockage de fichiers cryptés. De plus, les variables d'environnement sont utilisées pour stocker les informations sensibles nécessaires à l'exécution du code sans les exposer publiquement. Cette pratique permet de protéger les informations sensibles et de renforcer la sécurité de l'application.
+
 
 ```mermaid
 graph TD
