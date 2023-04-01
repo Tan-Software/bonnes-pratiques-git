@@ -27,7 +27,7 @@ Les messages de commit clairs et précis sont une partie importante de la gestio
 
 -   **Utiliser des verbes d'action** - Utilisez des verbes d'action pour indiquer ce que fait le commit. Par exemple, utilisez "ajouter" pour ajouter une nouvelle fonctionnalité ou "corriger" pour corriger un bug.
     
--   **Soyez concis** - Essayez de résumer votre commit en 50 caractères ou moins pour faciliter la lecture de l'historique des commits.
+-   **Être concis** - Essayez de résumer votre commit en 50 caractères ou moins pour faciliter la lecture de l'historique des commits.
     
 -   **Être cohérent** - Utilisez un format de nommage cohérent pour tous vos commits. Par exemple, vous pouvez utiliser la forme "Ajouter: fonctionnalité X" pour tous vos commits qui ajoutent de nouvelles fonctionnalités.
    
